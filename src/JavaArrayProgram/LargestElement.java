@@ -2,7 +2,7 @@ package JavaArrayProgram;
 
 public class LargestElement {
     public static void main(String[] args) {
-        int [] arr = new int[]{1,2,3,4,7,8,9};
+        int [] arr = new int[]{1,2,3,9,5,6};
         //Initialize max with first element of array.
         int maxELement = arr[0];  {
             //Loop through the array
