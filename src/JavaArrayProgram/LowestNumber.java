@@ -13,9 +13,9 @@ public class LowestNumber {
 
 
         //Sort the array in scending order
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i > arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] > arr[j]) {
+                if (arr[i] < arr[j]) {
                     temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
@@ -29,7 +29,8 @@ public class LowestNumber {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
-        System.out.print("Smaallest Element in array: ");
+        System.out.println();
+        System.out.print("Lowest Element in array: ");
         System.out.print(arr[0] + " ");
 
     }
